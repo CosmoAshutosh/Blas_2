@@ -38,24 +38,37 @@ Create an instance of the BLAS_2 class by specifying the number of rows, columns
 blas = BLAS_2(rows, cols, alpha, A)
 
 
-```python
 Matrix-Vector Multiplication
+```python
 blas.matrix_vector()
+```
 
 Symmetric Matrix-Vector Multiplication
+```python
 blas.symmetric_matrix_vector()
+```
 
 Triangular Matrix-Vector Multiplication
+```python
 blas.triangular_matrix_vector()
+```
 
 Triangular Banded Matrix-Vector Multiplication
+```python
 blas.triangular_banded_matrix_vector()
+```
 
 Rank-1 Operation
+```python
 blas.Rank_1_operation()
+```
 
 Symmetric Rank-1 Operation
+```python
 blas.symmetric_rank1_operation()
+```
 
 Symmetric Rank-2 Operation
+```python
 blas.symmetric_rank2_operation()
+```
