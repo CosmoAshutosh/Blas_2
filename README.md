@@ -38,6 +38,7 @@ Create an instance of the BLAS_2 class by specifying the number of rows, columns
 blas = BLAS_2(rows, cols, alpha, A)
 
 
+```python
 Matrix-Vector Multiplication
 blas.matrix_vector()
 
